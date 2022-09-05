@@ -40,20 +40,20 @@ function App() {
             <h1>{data.main ? <p>{data.main.temp}</p> : null}</h1>
           </div>
           <div className='description'>
-            <p>{data.weather[0].main}</p>
+            {/* <p>{data.weather[0].main}</p> */}
           </div>
         </div>
         <div className='bottom'>
           <div className='feels'>
-            <p className='bold'>{data.main.feels_like}</p>
+            {/* <p className='bold'>{data.main.feels_like}</p> */}
             <p>Feels Like</p>
           </div>
           <div className='humidity'>
-            <p className='bold'>{data.main.humidity}</p>
+            {/* <p className='bold'>{data.main.humidity}</p> */}
             <p>Humidity</p>
           </div>
           <div className='wind'>
-            <p className='bold'>{data.wind.speed}</p>
+            {/* <p className='bold'>{data.wind.speed}</p> */}
             <p>Wind Speed</p>
           </div>
         </div>
